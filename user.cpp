@@ -12,6 +12,21 @@ void User::logout() {
     std::cout << username << " logged out.\n";
 }
 
+Role User::getRole() const
+{
+    return Role();
+}
+
+std::string User::getUsername() const
+{
+    return std::string();
+}
+
+bool User::getIsDeleted() const
+{
+    return false;
+}
+
 void User::softDelete() {
     isDeleted = true;
     std::cout << username << " soft deleted.\n";

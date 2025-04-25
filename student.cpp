@@ -1,5 +1,5 @@
 #include "Student.h"
-#include "Course.h" // ????? ??? ???? ??? ????
+#include "Course.h" 
 #include <iostream>
 #include "databasemanager.h"
 
@@ -21,7 +21,11 @@ bool Student::enrollInCourse(Course* course) {
 
 void Student::viewGrades(const Course* course) const {
     std::cout << "Grades for course " << course->getCourseInfo() << ":\n";
-    // ?????????? ?????? ????? ?? ???? Course
+    
+}
+
+void Student::viewAnnouncements(const Course* course) const
+{
 }
 
 void Student::rateCourse(Course* course, float rating) {
@@ -29,6 +33,6 @@ void Student::rateCourse(Course* course, float rating) {
         std::cerr << "Error: Rating must be between 0 and 5!\n";
         return;
     }
-    course->addRating(this, rating); // ??? ??????? ??? addRating ?? Course ???? ????
+    //course->addRating(this, rating); 
     std::cout << "Rating submitted for course " << course->getCourseInfo() << "\n";
 }

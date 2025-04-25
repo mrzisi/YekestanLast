@@ -5,8 +5,12 @@ C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Admin.h(12,25): error C4430: missing t
 C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Admin.h(12,37): error C2143: syntax error: missing ',' before '*'
   (compiling source file 'admin.cpp')
   
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\admin.cpp(26,13): error C2511: 'void Admin::viewAllCourses(const Course *[],int) const': overloaded member function not found in 'Admin'
+      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Admin.h(4,7):
+      see declaration of 'Admin'
+  
   assignment.cpp
-C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.h(24,39): error C2061: syntax error: identifier 'Student'
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.h(23,39): error C2061: syntax error: identifier 'Student'
   (compiling source file 'assignment.cpp')
   
 C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(20,16): error C2065: 'Student': undeclared identifier
@@ -40,10 +44,6 @@ C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.cpp(15,45): error C2661: 'Co
       C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.cpp(15,45):
       while trying to match the argument list '(const std::string, const std::string, int, Professor *)'
   
-C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.cpp(30,13): error C2039: 'gradeStudent': is not a member of 'Course'
-      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(14,7):
-      see declaration of 'Course'
-  
   student.cpp
 C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Assignment.h(11,14): error C2065: 'Student': undeclared identifier
   (compiling source file 'student.cpp')
@@ -57,7 +57,7 @@ C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Assignment.h(15,23): error C2061: synt
 C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Assignment.h(16,20): error C2061: syntax error: identifier 'Student'
   (compiling source file 'student.cpp')
   
-C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.h(24,39): error C2061: syntax error: identifier 'Student'
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.h(23,39): error C2061: syntax error: identifier 'Student'
   (compiling source file 'student.cpp')
   
 C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(20,16): error C2065: 'Student': undeclared identifier
@@ -74,10 +74,6 @@ C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(14,17): error C2660: 'Cour
       see declaration of 'Course::addStudent'
       C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(14,17):
       while trying to match the argument list '(Student *)'
-  
-C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(32,13): error C2039: 'addRating': is not a member of 'Course'
-      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(14,7):
-      see declaration of 'Course'
   
   user.cpp
   Generating Code...

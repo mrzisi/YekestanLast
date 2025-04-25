@@ -25,6 +25,11 @@ bool Course::addAssignment(Assignment* assignment) {
     return true;
 }
 
+bool Course::addAnnouncement(Announcement* announcement)
+{
+    return false;
+}
+
 float Course::getAverageRating() const {
     if (studentRatings.empty()) return 0.0f;
     float sum = 0.0f;
@@ -32,4 +37,9 @@ float Course::getAverageRating() const {
         sum += pair.second;
     }
     return sum / studentRatings.size();
+}
+
+std::string Course::getCourseInfo() const
+{
+    return std::string();
 }

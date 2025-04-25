@@ -1,5 +1,5 @@
 #include "Professor.h"
-#include "Course.h" // ????? ??? ???? ??? ????
+#include "Course.h" 
 #include "Assignment.h"
 #include <iostream>
 
@@ -21,12 +21,16 @@ bool Professor::createCourse(Course* courses[], int& totalCourseCount,
 void Professor::addAssignment(Course* course, const std::string& assignmentId,
     const std::string& description, const std::string& deadline) {
     Assignment* assignment = new Assignment(assignmentId, description, deadline);
-    course->addAssignment(assignment); // ??? ??????? ??? addAssignment ?? Course ???? ????
+    course->addAssignment(assignment); 
     std::cout << "Assignment added: " << assignmentId << "\n";
 }
 
 void Professor::gradeStudent(Course* course, Student* student, float grade) {
-    // ??? ??????? ??? gradeStudent ?? Course ???? ????
-    course->gradeStudent(student, grade);
+    
+
     std::cout << "Graded student: " << student->getUsername() << "\n";
+}
+
+void Professor::postAnnouncement(Course* course, const std::string& content)
+{
 }

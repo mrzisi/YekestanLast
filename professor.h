@@ -4,13 +4,12 @@
 #include "Assignment.h"
 #include <array>
 
-// پیش‌اعلان کلاس‌های مورد نیاز
 class Course;
 class Assignment;
 
 class Professor : public User {
 private:
-    static const int MAX_COURSES = 5; // حداکثر ۵ درس
+    static const int MAX_COURSES = 5; 
     std::array<Course*, MAX_COURSES> taughtCourses;
     int courseCount = 0;
 
