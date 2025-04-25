@@ -23,6 +23,10 @@ void Admin::restoreUser(User* user) {
     user->restore();
 }
 
+void Admin::viewAllCourses(const Course* courses[], int courseCount)
+{
+}
+
 void Admin::viewAllCourses(const Course* courses[], int courseCount) const
 {
 }

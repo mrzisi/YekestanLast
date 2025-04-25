@@ -9,5 +9,6 @@ public:
         const std::string& password, Role role);
     void deleteUser(User* user);
     void restoreUser(User* user);
+    void viewAllCourses(const Course* courses[], int courseCount);
     void viewAllCourses(const Course* courses[], int courseCount) const;
 };

@@ -1,6 +1,6 @@
 #include "Course.h"
-#include <stdexcept>
-#include <numeric>
+//#include <stdexcept>
+//#include <numeric>
 #include <iostream>
 #include "professor.h"
 
