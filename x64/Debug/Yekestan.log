@@ -1,0 +1,83 @@
+﻿  admin.cpp
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Admin.h(12,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'admin.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Admin.h(12,37): error C2143: syntax error: missing ',' before '*'
+  (compiling source file 'admin.cpp')
+  
+  assignment.cpp
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.h(24,39): error C2061: syntax error: identifier 'Student'
+  (compiling source file 'assignment.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(20,16): error C2065: 'Student': undeclared identifier
+  (compiling source file 'assignment.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(20,24): error C2059: syntax error: ','
+  (compiling source file 'assignment.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(30,21): error C2061: syntax error: identifier 'Student'
+  (compiling source file 'assignment.cpp')
+  
+  course.cpp
+  databasemanager.cpp
+  main.cpp
+  notification.cpp
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\notification.cpp(13,31): error C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  professor.cpp
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(19,14): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'professor.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'professor.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(19,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'professor.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(29,74): error C2061: syntax error: identifier 'Professor'
+  (compiling source file 'professor.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.cpp(15,45): error C2661: 'Course::Course': no overloaded function takes 4 arguments
+      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.cpp(15,45):
+      while trying to match the argument list '(const std::string, const std::string, int, Professor *)'
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.cpp(30,13): error C2039: 'gradeStudent': is not a member of 'Course'
+      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(14,7):
+      see declaration of 'Course'
+  
+  student.cpp
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Assignment.h(11,14): error C2065: 'Student': undeclared identifier
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Assignment.h(11,22): error C2059: syntax error: ','
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Assignment.h(15,23): error C2061: syntax error: identifier 'Student'
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Assignment.h(16,20): error C2061: syntax error: identifier 'Student'
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\professor.h(24,39): error C2061: syntax error: identifier 'Student'
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(20,16): error C2065: 'Student': undeclared identifier
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(20,24): error C2059: syntax error: ','
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(30,21): error C2061: syntax error: identifier 'Student'
+  (compiling source file 'student.cpp')
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(14,17): error C2660: 'Course::addStudent': function does not take 1 arguments
+      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(30,10):
+      see declaration of 'Course::addStudent'
+      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(14,17):
+      while trying to match the argument list '(Student *)'
+  
+C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(32,13): error C2039: 'addRating': is not a member of 'Course'
+      C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(14,7):
+      see declaration of 'Course'
+  
+  user.cpp
+  Generating Code...

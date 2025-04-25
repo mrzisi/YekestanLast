@@ -1,0 +1,13 @@
+#pragma once
+#include "User.h"
+
+class Admin : public User {
+public:
+    Admin(const std::string& username, const std::string& password);
+
+    void createUser(User* users[], int& userCount, const std::string& username,
+        const std::string& password, Role role);
+    void deleteUser(User* user);
+    void restoreUser(User* user);
+    void viewAllCourses(const Course* courses[], int courseCount) const;
+};
