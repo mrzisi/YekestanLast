@@ -22,9 +22,6 @@ C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(20,24): error C2059: syntax e
 C:\Users\SHARIF\Desktop\Yekestan\Yekestan\Course.h(30,21): error C2061: syntax error: identifier 'Student'
   (compiling source file 'assignment.cpp')
   
-  course.cpp
-  databasemanager.cpp
-  main.cpp
   notification.cpp
 C:\Users\SHARIF\Desktop\Yekestan\Yekestan\notification.cpp(13,31): error C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   professor.cpp
@@ -75,5 +72,4 @@ C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(14,17): error C2660: 'Cour
       C:\Users\SHARIF\Desktop\Yekestan\Yekestan\student.cpp(14,17):
       while trying to match the argument list '(Student *)'
   
-  user.cpp
   Generating Code...
