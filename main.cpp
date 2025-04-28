@@ -45,3 +45,25 @@ int main() {
     }
     return 0;
 }
+
+
+
+//-------------------------------/
+
+//#include "DatabaseManager.h"
+//#include "SystemUI.h"
+//
+//int main() {
+//    DatabaseManager db;
+//
+//    // ایجاد کاربر پیش‌فرض ادمین
+//    Admin* admin = new Admin("admin", "1234", Role::ADMIN);
+//    db.addUser(admin);
+//
+//    SystemUI ui(db);
+//    ui.showMainMenu();
+//
+//    // آزادسازی حافظه
+//    delete admin;
+//    return 0;
+//}

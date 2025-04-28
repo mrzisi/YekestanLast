@@ -26,7 +26,7 @@ void DatabaseManager::saveToFile(const std::string& filename) const {
     }
 
     file << "Courses:\n";
-    for (int i = 0; i < courseCount; ++i) {
+    for (int i = 0; i < Student::courseCount; ++i) {
         file << courses[i]->getCourseInfo() << "\n";
     }
 }

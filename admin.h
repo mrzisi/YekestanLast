@@ -12,3 +12,11 @@ public:
     void viewAllCourses(const Course* courses[], int courseCount);
     void viewAllCourses(const Course* courses[], int courseCount) const;
 };
+
+//class Admin : public User {
+//public:
+//    Admin(const std::string& uname, const std::string& pwd, Role r);
+//
+//    void createUser(Database& db);
+//    void viewAllUsers(Database& db) const;
+//};

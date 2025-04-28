@@ -1,4 +1,4 @@
-#pragma once
+
 #include <string>
 //#include <array>
 //#include <map>
@@ -24,7 +24,8 @@ private:
     int studentCount = 0;
     int assignmentCount = 0;
     int announcementCount = 0;
-
+    int courseCount = 0;
+    int courses=0;
 public:
     Course(const std::string& id, const std::string& name, int capacity, Professor* prof);
     bool addStudent(Student* student);

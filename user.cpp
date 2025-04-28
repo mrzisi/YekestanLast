@@ -1,5 +1,6 @@
 #include "User.h"
 #include <iostream>
+//using namespace User;
 
 User::User(const std::string& username, const std::string& password, Role role)
     : username(username), password(password), role(role) {}
@@ -22,6 +23,11 @@ std::string User::getUsername() const
     return std::string();
 }
 
+bool User::isAccountActive() const
+{
+    return false;
+}
+
 bool User::getIsDeleted() const
 {
     return false;
@@ -29,10 +35,10 @@ bool User::getIsDeleted() const
 
 void User::softDelete() {
     isDeleted = true;
-    std::cout << username << " soft deleted.\n";
+    std::cout << User::username << " soft deleted.\n";
 }
 
 void User::restore() {
     isDeleted = false;
-    std::cout << username << " restored.\n";
+    std::cout << User::username << " restored.\n";
 }

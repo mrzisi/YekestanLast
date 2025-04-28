@@ -6,7 +6,7 @@
 class Course;
 
 class Student : public User {
-private:
+public:
     static const int MAX_COURSES = 10; 
     std::array<Course*, MAX_COURSES> enrolledCourses;
     int courseCount = 0;
@@ -19,3 +19,4 @@ public:
     void viewAnnouncements(const Course* course) const;
     void rateCourse(Course* course, float rating);
 };
+

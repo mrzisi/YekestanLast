@@ -136,6 +136,7 @@
     <ClCompile Include="notification.cpp" />
     <ClCompile Include="professor.cpp" />
     <ClCompile Include="student.cpp" />
+    <ClCompile Include="SystemUI.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +147,7 @@
     <ClInclude Include="notification.h" />
     <ClInclude Include="professor.h" />
     <ClInclude Include="student.h" />
+    <ClInclude Include="SystemUI.h" />
     <ClInclude Include="user.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

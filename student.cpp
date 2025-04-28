@@ -1,11 +1,11 @@
-#include "Student.h"
+﻿#include "Student.h"
 #include "Course.h" 
 #include <iostream>
 #include "databasemanager.h"
 
 Student::Student(const std::string& username, const std::string& password)
     : User(username, password, Role::STUDENT) {}
-
+int Student::courseCount = 0; // مقداردهی اولیه
 bool Student::enrollInCourse(Course* course) {
     if (courseCount >= MAX_COURSES) {
         std::cerr << "Error: Max courses reached for student!\n";
